@@ -4,3 +4,9 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/46/corne_v4.h"
 #include "../miryoku/miryoku.dtsi"
+
+/ {
+  chosen {
+    zmk,matrix_transform = &default_transform;
+  };
+};
