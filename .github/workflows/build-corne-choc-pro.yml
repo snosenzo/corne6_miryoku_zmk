@@ -7,4 +7,3 @@ jobs:
     secrets: inherit
     with:
       board: '["corne_choc_pro_left","corne_choc_pro_right"]'
-      shield: '["nice_view"]'
