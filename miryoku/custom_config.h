@@ -29,7 +29,7 @@ U_MT(LGUI, C),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp 
 U_LT(U_BUTTON, Q), U_MT(RALT, J),     &kp V,             &kp D,             &kp K,             &kp X,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, BSPC),U_LT(U_NAV, DEL),U_LT(U_MOUSE, RET), U_LT(U_SYM, SPACE),U_LT(U_NUM, TAB),  U_LT(U_FUN, ESC),  U_NP,              U_NP
 
-#define MIRYOKU_LAYER_BASE=MIRYOKU_ALTERNATIVES_BASE_CANARY
+#define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_CANARY
 
 // Num layer such that lower numbers are at the top, swap grave and backslash
 #define MIRYOKU_ALTERNATIVES_NUM \
@@ -38,7 +38,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, BSPC),U_LT(U_NAV, DEL),U_LT(
 &kp BSLH,         &kp N7,            &kp N8,            &kp N9,            &kp GRAVE,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_NUM=MIRYOKU_ALTERNATIVES_NUM
+#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM
 
 // Symbol layer that follows numbers. swap PIPE and TILDE
 #define MIRYOKU_ALTERNATIVES_SYM \
@@ -47,7 +47,7 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp PIPE,         &kp AMPS,          &kp ASTRK,         &kp LPAR,           &kp TILDE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_SYM=MIRYOKU_ALTERNATIVES_SYM
+#define MIRYOKU_LAYER_SYM MIRYOKU_ALTERNATIVES_SYM
 
 
 // Fun layer with same logic number logic applied
@@ -57,7 +57,7 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 &kp F10,           &kp F7,            &kp F8,            &kp F9,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_FUN=MIRYOKU_ALTERNATIVES_FUN
+#define MIRYOKU_LAYER_FUN MIRYOKU_ALTERNATIVES_FUN
 
 
 // VI like nav layer with changed thumb cluster
@@ -67,7 +67,7 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPACE,         &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-#define MIRYOKU_LAYER_NAV=MIRYOKU_ALTERNATIVES_NAV_VI
+#define MIRYOKU_LAYER_NAV MIRYOKU_ALTERNATIVES_NAV_VI
 
 
 // Extend MEDIA to add support for extra BT buttons
@@ -77,7 +77,7 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_bt_sel_4,        \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
-#define MIRYOKU_LAYER_MEDIA=MIRYOKU_ALTERNATIVES_MEDIA_VI
+#define MIRYOKU_LAYER_MEDIA MIRYOKU_ALTERNATIVES_MEDIA_VI
 
 // Change to contain 4 bt channel button and include out tog on outside of keyboard
 #define MIRYOKU_LAYERMAPPING_MEDIA_VI( \
