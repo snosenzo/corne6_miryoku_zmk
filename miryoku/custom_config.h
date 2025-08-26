@@ -115,9 +115,9 @@ U_NP,              U_NP,              &to U_BASE,        &none,             &kp 
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp TAB   K00  K01  K02  K03  K04  XXX  XXX  K05  K06  K07  K08  K09  &u_to_U_BASE \
-LSHFT K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
-LCTRL K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  XXX \
-                K32  K33  K34            K35  K36  K37
+&kp LSHFT K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
+&kp LCTRL K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  XXX \
+                    K32  K33  K34            K35  K36  K37
 // end this
 
 #define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
