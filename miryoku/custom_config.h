@@ -4,6 +4,10 @@
 #define MIRYOKU_ALPHAS_CANARY
 #define MIRYOKU_NAV_VI
 
+#define XXX &none
+
+
+// corne_v4 layout
 
 // Change to contain button to go to game layer
 #define MIRYOKU_LAYERMAPPING_BASE( \
@@ -12,10 +16,10 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_GAME \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+XXX  K00  K01  K02  K03  K04  XXX  XXX  K05  K06  K07  K08  K09  &u_to_U_GAME \
+XXX  K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
+XXX  K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34            K35  K36  K37
 // end this
 
 // SPACE on leftmost right hand button
@@ -70,10 +74,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &u_out_tog \
-               K32  K33  K34       K35  K36  K37
+XXX  K00  K01  K02  K03  K04  XXX  XXX  K05  K06  K07  K08  K09  XXX \
+XXX  K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
+XXX  K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  &u_out_tog \
+               K32  K33  K34            K35  K36  K37
 // end this
 
 // Game layer
@@ -98,10 +102,10 @@ U_NP,              U_NP,              &to U_BASE,        &none,             &kp 
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-TAB   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &u_to_U_BASE \
-LSHFT K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-LCTRL K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-                K32  K33  K34       K35  K36  K37
+TAB   K00  K01  K02  K03  K04  XXX  XXX  K05  K06  K07  K08  K09  &u_to_U_BASE \
+LSHFT K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
+LCTRL K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  XXX \
+                K32  K33  K34            K35  K36  K37
 // end this
 
 #define MIRYOKU_LAYERMAPPING_GAMENUM MIRYOKU_MAPPING
