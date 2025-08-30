@@ -91,9 +91,9 @@ XXX  K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  &u_out_tog \
 // QWERTY layout with thumbs: LALT, SPC, and Gamenum layer hold
 #define MIRYOKU_LAYER_GAME \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,            &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp A,             &kp S,             &kp D,             &kp F,             &kp G,            &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,            &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,            &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LALT,          &mo U_GAMENUM,     &kp SPC,          &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo U_GAMENUM,    &kp RET,           &kp BSPC,          &kp ESC,           U_NP,              U_NP
 
 // Game number layer -- doesn't override W and S keys so that movement can still happen while selecting a number
 #define MIRYOKU_LAYER_GAMENUM \
@@ -110,7 +110,7 @@ U_NP,              U_NP,              &to U_BASE,        &none,             &kp 
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp TAB   K00  K01  K02  K03  K04  XXX  XXX  K05  K06  K07  K08  K09  &u_to_U_BASE \
-&kp LSHFT K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  XXX \
+&kp LSHFT K10  K11  K12  K13  K14  XXX  XXX  K15  K16  K17  K18  K19  &kp SQT \
 &kp LCTRL K20  K21  K22  K23  K24            K25  K26  K27  K28  K29  XXX \
                     K32  K33  K34            K35  K36  K37
 // end this
