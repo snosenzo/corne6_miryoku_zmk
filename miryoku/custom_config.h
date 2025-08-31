@@ -3,7 +3,6 @@
 
 #define MIRYOKU_ALPHAS_CANARY
 #define MIRYOKU_NAV_VI
-#define MIRYOKU_EXTRA_QWERTY
 #define MIRYOKU_TAP_QWERTY
 
 #define XXX &none
@@ -48,13 +47,20 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp PIPE,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp TILDE,         U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-
 // Fun layer with same logic number logic applied
 #define MIRYOKU_LAYER_FUN \
 &kp F12,           &kp F1,            &kp F2,            &kp F3,            &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp F10,           &kp F7,            &kp F8,            &kp F9,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+
+// qwerty extra layer
+#define MIRYOKU_LAYER_EXTRA \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, DEL),U_LT(U_NAV, BSPC),U_LT(U_MOUSE, RET),U_LT(U_SYM, TAB),  U_LT(U_NUM, SPACE), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
 
 // VI like nav layer with changed thumb cluster
