@@ -105,7 +105,7 @@ U_NP,              U_NP,              &kp LALT,          &kp SPC,           &mo 
 #define MIRYOKU_LAYER_GAMENUM \
 &kp F12,           &kp W,             &kp NUM_1,         &kp NUM_2,         &kp NUM_3,           &kp LBKT,          &kp F7,            &kp F8,            &kp F9,            &kp RBKT,         \
 &kp F11,           &kp S,             &kp NUM_4,         &kp NUM_5,         &kp NUM_6,           &kp EQL,           &kp F4,            &kp F5,            &kp F6,            &kp SEMI,         \
-&kp NUM_0,         &kp ESC,           &kp NUM_7,         &kp NUM_8,         &kp NUM_9,           &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
+&kp M,             &kp ESC,           &kp NUM_7,         &kp NUM_8,         &kp NUM_9,           &kp BSLH,          &kp F1,            &kp F2,            &kp F3,            &kp GRAVE,        \
 U_NP,              U_NP,              &to U_BASE,        &none,             &kp SPC,             &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
 // layer mapping which puts TAB, LSHFT, and LCTRL on the 6th row of the keyboard
