@@ -32,20 +32,21 @@ U_LT(U_BUTTON, Q), U_MT(RALT, J),     &kp V,             &kp D,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, DEL),U_LT(U_NAV, BSPC), U_LT(U_MOUSE, RET), U_LT(U_SYM, TAB),  U_LT(U_NUM, SPACE), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
 
-// Num layer such that lower numbers are at the top, swap grave and backslash
+// Num layer such that lower numbers are at the top
 #define MIRYOKU_LAYER_NUM \
-&kp LBKT,          &kp N1,            &kp N2,            &kp N3,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp BSPC,          &kp N1,            &kp N2,            &kp N3,            &kp PLUS,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp BSLH,          &kp N7,            &kp N8,            &kp N9,            &kp GRAVE,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp BSLH,          &kp N7,            &kp N8,            &kp N9,            &kp N0,            U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DOT,           &kp MINUS,         &kp GRAVE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
-// Symbol layer that follows numbers. swap PIPE and TILDE
+// Symbol layer that follows numbers.
+// Holds all brackets, braces and parens between left and right sides
 #define MIRYOKU_LAYER_SYM \
-&kp LBRC,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp PIPE,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp TILDE,         U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp BSPC,          &kp EXCL,          &kp AT,            &kp HASH,          &kp LBRC,          &kp RBRC,          &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp LBRKT,         &kp RBRKT,         &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp PIPE,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp LPAR,          &kp RPAR,          &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp COLON,         &kp UNDER,         &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // Fun layer with same logic number logic applied
 #define MIRYOKU_LAYER_FUN \
