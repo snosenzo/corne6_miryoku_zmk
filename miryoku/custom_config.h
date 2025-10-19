@@ -44,7 +44,7 @@ U_NP,              U_NP,              &kp DOT,           &kp MINUS,         &kp 
 // Holds all brackets, braces and parens between left and right sides
 #define MIRYOKU_LAYER_SYM \
 &kp BSPC,          &kp EXCL,          &kp AT,            &kp HASH,          &kp LBRC,          &kp RBRC,          &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp LBRKT,         &kp RBRKT,         &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp LBKT,         &kp RBKT,         &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp PIPE,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp LPAR,          &kp RPAR,          &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp COLON,         &kp UNDER,         &kp TILDE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
