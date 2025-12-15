@@ -1,0 +1,8 @@
+name: 'Build Example piantor_pro'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["piantor_pro_bt_left","piantor_pro_bt_right"]'
