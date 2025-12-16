@@ -7,4 +7,4 @@ jobs:
     with:
       board: '["corne_choc_pro_left","corne_choc_pro_right"]'
       # Pin to pre-Zephyr 4.1 ZMK for HWMv1 board compatibility
-      branches: '["zmkfirmware/zmk/zephyr-3.5"]'
+      branches: '["zmkfirmware/zmk/v0.3-branch"]'
