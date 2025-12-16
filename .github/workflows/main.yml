@@ -1,7 +1,7 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Main'
+name: "Main"
 on:
   workflow_call:
     inputs:
@@ -72,7 +72,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
         with:
-          path: 'miryoku_zmk'
+          path: "miryoku_zmk"
       - name: main
         id: main
         run: |
@@ -325,7 +325,7 @@ jobs:
           EX_DATAERR='65'
           cd "${GITHUB_WORKSPACE}/zmk/app"
           {
-            west $west_debug build -b ${{ matrix.board }} $west_build_debug -- ${{ steps.main.outputs.shield_arg }} ${{ steps.main.outputs.modules_arg }} -DZMK_CONFIG="${GITHUB_WORKSPACE}/miryoku_zmk/config" -DZMK_EXTRA_MODULES="${GITHUB_WORKSPACE}/miryoku_zmk" ||
+            west $west_debug build -b ${{ matrix.board }} $west_build_debug -- ${{ steps.main.outputs.shield_arg }} ${{ steps.main.outputs.modules_arg }} -DZMK_CONFIG="${GITHUB_WORKSPACE}/miryoku_zmk/config" ||
             echo "$build_failed_message $?." ;
           } 2>&1 | tee "$log"
           if grep -q 'Invalid BOARD; see above.' "$log"
